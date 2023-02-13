@@ -1,0 +1,71 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://img.myloview.com.br/posters/abstract-blurred-orange-purple-magenta-background-soft-colorful-gradient-backdrop-with-place-for-text-vector-illustration-for-your-graphic-design-banner-poster-website-400-220020243.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  body > img {
+    margin: 0 10px;
+  }
+  
+  img {
+    max-height: 200px;
+  }
+  
+  input, select{
+    border-radius: 5px;
+    border: none;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    width: 200px;
+    height: 30px;
+    font-weight: 5000;
+    text-align: center;
+  }
+  
+  button{
+    border-radius: 0px;
+    border: none;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    width: 140px;
+    height: 40px;
+    background-color: #FFD064;
+    font-weight: 700;
+    transition-duration: 0.5s;
+  }
+  
+  button:hover {
+    background-color: #FA5858;
+  }

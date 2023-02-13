@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Conversor de Temperaturas</title>
+    <link rel="stylesheet" href="conversor_de_temperaturas.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2204/2204445.png" type="image/png">
+  </head>
+  
+  <body>
+    <div class="container">
+      <br> <br>
+      <h1 class="page-title">Conversor de Temperaturas</h1>
+      <br>
+      <img src="https://cdn-icons-png.flaticon.com/512/2204/2204445.png">
+      <br><br>
+  
+      <input type="text" id="entrada" name="entrada" placeholder="Digite a temperatura">
+      <select id="escalaEntrada" name="escalaEntrada" >
+        <option value="">Escolha a escala</option>
+        <option value="celsius">Celsius</option>
+        <option value="fahrenheit">Fahrenheit</option>
+        <option value="kelvin">Kelvin</option>
+      </select>
+  
+      <br> <br>
+  
+      <input readOnly=true type="text" id="resultado" name="resultado" placeholder="Resultado">
+  
+      <select id="escalaResultado" name="escalaResultado">
+        <option value="">Escolha a escala</option>
+        <option value="celsius">Celsius</option>
+        <option value="fahrenheit">Fahrenheit</option>
+        <option value="kelvin">Kelvin</option>
+      </select>
+  
+  
+      <br><br> <br>
+      <button onClick=converterTemperaturas()>Converter</button>
+      <br><br> <br>
+  
+  </div>
+  <footer>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+  </footer>
+
+  <script src="conversor_de_temperaturas.js"></script>
+
+  </body>
+</html>
