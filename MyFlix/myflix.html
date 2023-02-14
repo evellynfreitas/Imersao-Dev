@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title>MyFlix</title>
+    <link rel="stylesheet" href="myflix.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1748/1748823.png" type="image/png">
+  </head>
+  
+  <body>
+    <div class="container">
+      <h1 class="page-title">MyFlix</h1>
+
+      <div>
+        <h3>Filmes Favoritos</h3>
+          <ul id="listaDeFilmes"></ul>
+
+        <h3>Séries Favoritas</h3>
+          <ul id="listaDeSeries"></ul>
+
+        <h3>Adicionar ao catálogo: </h3>
+        <div align="left" id="divAddCatalogo">
+
+          <input class="elementoAddCatalogo" type="text" id="linkImagem" name="linkImagem" placeholder="Digite o link da imagem">
+
+          <input class="elementoAddCatalogo" type="radio" id="filme" name="tipoMidia" value="filme">
+          <label class="elementoAddCatalogo" for="filme">Filme</label>
+
+          <input class="elementoAddCatalogo" type="radio" id="serie" name="tipoMidia" value="serie">
+          <label class="elementoAddCatalogo" for="serie">Série</label>
+
+          <button class="elementoAddCatalogo" onClick="adicionarMidia()"> Adicionar </button>
+        </div>
+
+      </div>
+
+    </div>
+
+    <br><br>
+
+    <footer>
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+    </footer>
+    
+    <script src="myflix.js"></script>
+  </body>
+</html>

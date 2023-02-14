@@ -1,0 +1,85 @@
+body {
+    font-family: Poppins, sans-serif;
+    text-align: center;
+    background-image: url("https://a-static.besthdwallpaper.com/fantasy-world-wallpaper-2880x1620-29897_52.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  h3{
+    color: #FFFFFF;
+    text-align: left;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #E94949;
+    margin: 0 0 5px;
+  }
+  
+  .page-logo {
+    width: 130px;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    overflow-x: auto;
+    padding: 0;
+  }
+  
+  ul img {
+    width: 150px;
+    height: 210px;
+    margin: 10px;
+  }
+  
+  #linkImagem{
+    border: none;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    width: 200px;
+    height: 30px;
+    font-weight: 5000;
+    text-align: center;
+  }
+  
+  button{
+    border: none;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    width: 140px;
+    height: 30px;
+    text-align: center;
+    background-color: #BF3B62;
+    color: #000000;
+    transition-duration: 0.4s;
+    font-weight: 700;
+    }
+    
+  button:hover {
+    background-color: #F6AB8E;
+  }
+  
+  label{
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    color: white;
+  }
+  
+  #divAddCatalogo{
+      overflow:hidden;
+      width:auto;
+      display:inline;
+  }
+  
+  .elementoAddCatalogo{
+      float:left;
+      margin-left:10px;
+  }
